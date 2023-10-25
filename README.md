@@ -4,7 +4,9 @@
 
 1. 기획
 2. 지도 통합: Leaflet 또는 Google Maps JavaScript API 사용 -> Leaflet 사용
-3. 지역 정보 수집: 이금섭 T 프린트
+3. 지역 정보 수집
+   - 지리적 표시제 및 지역 축제: 이금섭 T 프린트
+   - 위도 경도 표시: http://map.esran.com/
 4. 코드 작성
    - sample.js
    - index.html
