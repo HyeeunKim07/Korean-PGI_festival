@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Leaflet Map with Multiple Markers</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        /* 맵 컨테이너의 높이 설정 */
+        #map {
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 지도가 들어갈 자리 -->
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([37.5, 126.5], 7);
+
+        L.tileLayer('https://tiles.osm.kr/hot/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        // 다중 마커를 추가하고 각 마커에 팝업 설정
+        var markers = [
+                    // 서울 및 경기도
+                    {latlng: [37.59507908239112, 127.02286181376326], popupContent: '서울특별시 성북구 - 성북다문화음식축제'},
+                    {latlng: [37.51746390694027, 127.11857945016345], popupContent: '서울특별시 송파구 - 한성백제문화제'},
+                    {latlng: [37.614793025380756, 126.7224940168535], popupContent: '경기도 김포시 - 김포 쌀'},
+                    {latlng: [37.45559292997296, 126.70282970505994], popupContent: '인천광역시 - 인천 펜타포트 축제'},
+                    {latlng: [37.747778939981785, 126.48671734440585], popupContent: '경기도 강화군 - 강화 약쑥'},
+                    {latlng: [37.29912915179103, 127.63750911828814], popupContent: '경기도 여주시 - 여주 쌀, 여주오곡나루축제'},
+                    {latlng: [37.264815775824054, 127.44962769343665], popupContent: '경기도 이천시 - 이천 쌀, 이천쌀문화축제'},
+                    // 강원도
+                    {latlng: [38.14922900606689, 127.30824507652176], popupContent: '강원도 철원군 - 철원 쌀'},
+                    {latlng: [38.1065896551385, 127.703568780381], popupContent: '강원도 화천군 - 화천산천어축제'},
+                    {latlng: [38.383102618386296, 128.473852023994], popupContent: '강원도 고성군 - 강원고성명태축제'},
+                    {latlng: [38.07799362689874, 128.61503876832498], popupContent: '강원도 양양군 - 양양 송이'},
+                    {latlng: [37.864151031968106, 127.74780502880344], popupContent: '강원도 춘천시 - 춘천국제마임축제'},
+                    {latlng: [37.69599354834061, 127.8839873934837], popupContent: '강원도 홍천군 - 홍천 찰옥수수'},
+                    {latlng: [37.49454907781831, 127.98292485378869], popupContent: '강원도 횡성군 - 횡성 한우고기'},
+                    {latlng: [37.371659526740444, 128.39169745562444], popupContent: '강원도 평창군 - 평창효석문화제'},
+                    {latlng: [37.494708570817366, 128.53581544531434], popupContent: '강원도 평창군 진부면 - 진부 당귀'},
+                    {latlng: [37.38577266182911, 128.6607677359983], popupContent: '강원도 정선군 - 정선 찰옥수수, 정선 황기'},
+        ];
+
+        markers.forEach(function (markerInfo) {
+            var marker = L.marker(markerInfo.latlng).addTo(map);
+            marker.bindPopup(markerInfo.popupContent);
+        });
+    </script>
+</body>
+</html>
