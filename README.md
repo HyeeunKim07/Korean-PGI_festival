@@ -17,7 +17,10 @@ This webpage shows Korea's major PGI & festivals. PGI means 'protected geographi
    - 링크: https://hyeeunkim07.github.io/Korean-PGI_festival/
 6) 코드 리뷰 및 리팩토링
 
-## 3. References
+## 3. Access link
+https://hyeeunkim07.github.io/Korean-PGI_festival/
+
+## 4. References
 - https://leafletjs.com/
 - http://map.esran.com/
 - https://velog.io/@commi1106/Github-Pages%EB%A1%9C-HTML-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
