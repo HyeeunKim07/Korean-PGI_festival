@@ -1,10 +1,10 @@
 # Korean-PGI_festival
 
-국내 지리적 표시제 및 지역 축제 표시 사이트
+## 국내 지리적 표시제 및 지역 축제 표시 사이트
 
 1. 기획
 2. 지도 통합: Leaflet 또는 Google Maps JavaScript API 사용 -> Leaflet 사용
-   https://leafletjs.com/
+   - https://leafletjs.com/
 3. 지역 정보 수집
    - 지리적 표시제 및 지역 축제: 이금섭 T 프린트
    - 위도 경도 표시: http://map.esran.com/
