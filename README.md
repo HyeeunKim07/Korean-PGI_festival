@@ -10,12 +10,12 @@ This webpage shows Korea's major PGI & festivals. PGI means 'protected geographi
 3) 지역 정보 수집
    - 지리적 표시제 및 지역 축제: 이금섭 T 프린트
    - 위도 경도 표시: http://map.esran.com/
-4) 코드 작성
+4) Coding
    - sample.js
    - index.html
 5) 1차 웹 호스팅 및 배포: Github Pages 
    - 링크: https://hyeeunkim07.github.io/Korean-PGI_festival/
-6) 코드 리뷰 및 리팩토링
+6) Code reviewing & refactoring
 7) 2차 배포
 
 ## 3. Access link
