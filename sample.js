@@ -6,8 +6,6 @@ L.tileLayer('https://tiles.osm.kr/hot/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // 적는 법 {latling: [위도, 경도], popupContent: '이름'}
-// 위도 경도 다시 체크 해야함....
-// 에헤이 조졋네 이거
 // http://map.esran.com/
 var markers = [
     //서울 및 경기도
