@@ -35,3 +35,4 @@ https://hyeeunkim07.github.io/Korean-PGI_festival/
 ## 6. Supplyment
 - map size (in mobile version; iOS, Android)
 - bigger pont size
+- click the marker -> show festival's website
