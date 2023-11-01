@@ -38,7 +38,7 @@ https://hyeeunkim07.github.io/Korean-PGI_festival/
 - click the marker -> show festival's website
 
 ## 7. R -ing
-1. 지도 사이즈 수정 (모바일 / PC)
+1. 지도 사이즈 수정, 반응형 (모바일 / PC)
    - https://stickode.tistory.com/157
    - https://mediaqueri.es/
    - https://developer.mozilla.org/ko/docs/Web/CSS/CSS_media_queries/Using_media_querie
