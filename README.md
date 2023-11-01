@@ -36,3 +36,8 @@ https://hyeeunkim07.github.io/Korean-PGI_festival/
 - map size (in mobile version; iOS, Android)
 - bigger pont size
 - click the marker -> show festival's website
+
+## 7. R -ing
+https://stickode.tistory.com/157
+https://mediaqueri.es/
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_media_queries/Using_media_queries
