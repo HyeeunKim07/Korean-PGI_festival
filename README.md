@@ -38,6 +38,10 @@ https://hyeeunkim07.github.io/Korean-PGI_festival/
 - click the marker -> show festival's website
 
 ## 7. R -ing
-https://stickode.tistory.com/157
-https://mediaqueri.es/
-https://developer.mozilla.org/ko/docs/Web/CSS/CSS_media_queries/Using_media_queries
+1. 지도 사이즈 수정 (모바일 / PC)
+   - https://stickode.tistory.com/157
+   - https://mediaqueri.es/
+   - https://developer.mozilla.org/ko/docs/Web/CSS/CSS_media_queries/Using_media_querie
+2. 폰트 사이즈 키우기
+3. marker 클릭시 축제 웹사이트 또는 특산물 판매 사이트 연결 (없는 건 그 지역 시청/군청 사이트 연결)
+- https://stackoverflow.com/questions/66572730/how-to-show-an-image-and-a-link-on-a-popup-when-clicking-on-a-leaflet-marker
