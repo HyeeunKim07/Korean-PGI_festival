@@ -1,4 +1,4 @@
-var map = L.map('map').setView([37.5, 126.5], 7);
+var map = L.map('map').setView([36.0, 127.5], 7);
 
 L.tileLayer('https://tiles.osm.kr/hot/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -6,7 +6,6 @@ L.tileLayer('https://tiles.osm.kr/hot/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // 적는 법 {latling: [위도, 경도], popupContent: '이름'}
-// http://map.esran.com/
 var markers = [
     //서울 및 경기도
     {latlng: [37.59507908239112, 127.02286181376326], popupContent: '서울특별시 성북구 - 성북다문화음식축제'},
